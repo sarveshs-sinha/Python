@@ -54,3 +54,15 @@ print(w.capitalize())
 
 #replace()- replaces a word with another
 print(w.replace("world", "python"))
+
+#find()- finds position of word index
+print(w.find("hello"))
+
+#count()- counts how many time a word appears
+print(w.count("l"))
+
+#strip()- removes extra spaces from start to end
+print(w.strip())
+
+#endswith()- check weather string ends with specific word i.e True or False
+print(w.endswith("Python"))
